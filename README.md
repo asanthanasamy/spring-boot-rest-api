@@ -12,4 +12,4 @@ A complete example of a "CRUD" service built with SpringBoot + PostgreSQL
 |`GET`|http://localhost:8080/api/student | Get Student List |
 |`GET`|http://localhost:8080/api/student/{id} | Get Student by ID |
 |`DELETE`|http://localhost:8085/api/student/{id} | Delete Student by ID |
-|`GET`|http://localhost:8085/api/student?name="sam"&studentClass="12" | Search Student with Name or class |
+|`GET`|http://localhost:8085/api/student?name="{value}"&studentClass="{value}" | Search Student with Name or class |
